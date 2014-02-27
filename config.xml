@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.hasior"
+        versionCode="10" 
+        version   = "3.3.0">
+
+
+          <name>HASIOR</name>
+      
+          <description>
+              Hasior powered by PhoneGap 
+          </description>
+      
+          <author href="http://zszczech.zut.edu.pl/git" email="zs@g.pl">
+              ZnakZorro
+          </author>
+          <preference name="phonegap-version" value="3.3.0" />
+          <preference name="orientation"      value="default" />
+          <preference name="target-device"    value="universal" />
+          <preference name="fullscreen"       value="false" />
+      
+      
+        <access origin="*" onlyInBrowser="true" />
+        <preference name="stay-in-webview" value="false" />
+
+    </widget>
